@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title> Revamp </title>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <link href="./resources/CSS/fontawesome-free-5.12.0-web/css/all.min.css" rel="stylesheet">
+    <link href="resources/CSS/style.css" rel="stylesheet" />
+    
+</head>
+
+<body>
+   
+    <nav class="navbar col-3 navbar-default navbar-fixed-top"  role="navigation">
+        
+            <a class="brand-logo" href="#top" style="color: #18316B;">bee's</a>
+           <!-- <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> -->
+            <nav class="main-nav" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto my-2 my-lg-0" id="mainMenu">
+                    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#top"> Home  </a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#About">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Contact Us">Contact Us</a></li>
+                    
+                </ul>
+            </nav>
+
+    </nav>
+    
+
+    <header id="top" class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-12 text-center">
+                    <h1 class="text-uppercase text-white font-weight-bold">We are hair for you!   
+                    </h1>
+                    
+                </div>
+               
+                <div class="down-button" >
+                    <a class="btn" href="#About">
+                        <i class="fas fa-arrow-circle-down fa-4x" ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="About" class="page-section bg-primary" >
+        <div class="container2">
+            
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-white mt-0">We've got what you need</h2>
+                   
+                    <p class="text-white-50 mb-4"> <b>So, you did it......</b><br><br><br> Bee's collection of product is inspired to help you achieve any look you desire.<br> That’s right—we keep your straight strands soft and lustrous and your curls<br> conditioned and defined, and our one-of-a-kind formula helps achieve everything<br> from cutting-edge looks to classic styles.
+
+                        It’s our mission to celebrate you in all<br> your glory. Your hair, your skin, your light, and your beauty are all uniquely you.<br><br> <br> Own it.<br> <br> Love it.<br><br> Live it.<br><br>  </p>
+                                
+                    </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <section class="page-section3" id="Contact Us">
+        <div class="rapper">
+            <h2> Contact Us </h2>
+            <div id="error_message"></div>
+            <form id="myform" onsubmit="return validation()">
+                <div class="input_field">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="input_field">
+                    <input type="number" placeholder="Phone" id="phone">
+                </div>
+                <div class="input_field">
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+                <div class="input_field">
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="input_field">
+                    <textarea id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="btn">
+                    <button type="submit" style="color: white;"> Submit </button>
+                </div>
+            </form>
+        </div>
+        <div class="social">
+    		<a href="Adeola Adelakun"> <i class="fab fa-facebook-square fa-2x" style="color: rgba(255,255,255,0.9);"></i></a>
+    		<a href=""> <i class="fab fa-twitter-square fa-2x" style="color: rgba(255,255,255,0.9);"></i></a>
+    		<a href="#"> <i class="fab fa-gitlab fa-2x" style="color: rgba(255,255,255,0.9);"></i></a>
+            <a href="09093370062"> <i class="fab fa-whatsapp-square fa-2x" style="color: rgba(255,255,255,0.9);"></i></a>
+            <a href="#"> <i class="fab fa-instagram fa-2x" style="color: rgba(255,255,255,0.9);"></i></a>
+        </div>
+        
+    </section>
+    <footer class="bg-light py-5">
+        <div class="container">
+            <div class="small text-center text-muted">Copyright © 2020 - Adeola Adelakun</div>
+        </div>
+    </footer>
+<script src="resources/JS/scripts.js"></script>
+<script>
+    var docWidth = document.documentElement.offsetHeight;
+    [].forEach.call(document.querySelectorAll("*"),
+    function(el){
+        if (el.offsetWidth > docWidth){
+            console.log(el);
+        }
+    });
+</script>
+</body>
+</html>

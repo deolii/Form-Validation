@@ -1,0 +1,367 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  box-sizing: border-box;
+  font-family: "Josephin Sans", sans-serif;
+}
+
+.navbar{
+  background-color: black;
+  width: 100%;
+  padding: 15px 25px;
+  overflow: hidden;
+  position: fixed;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  top: 0;
+  z-index: 99;
+}
+
+@media only screen and (max-width: 576px) {
+  header.masthead {
+    height: 100vh;
+    
+  }
+}
+
+.brand-logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 36px;
+  color: white;
+  float: left;
+}
+
+
+nav.main-nav ul {
+    list-style-type: none;
+    float: right;
+    padding: 12px;
+}
+
+nav.main-nav ul li {
+    float: left;
+}
+
+nav.main-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 14px 23px;
+}
+
+nav.main-nav ul li a:hover {
+    color: #18316B;
+}
+
+.cbp-af-header-shrink{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 0.9;
+}
+
+.down-button{
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.down-button i{
+  color: white;
+}
+
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),  url("../IMG/image\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead h1 {
+  font-size: 2.25rem;
+  text-align: center;
+  color: white;
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 40rem;
+    
+  }
+}
+@media (min-width: 992px) {
+  header.masthead h1 {
+    font-size: 3.5rem;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    padding-top: 320px;
+    
+  }
+}
+
+#About{
+  background-image: linear-gradient(to bottom right, #18316B, white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+
+.down-button a i:hover{
+  color: #18316B;
+}
+
+@media only screen and (max-width: 992px) {
+  #About {
+    height: 100vh;
+    
+  }
+}
+
+.container2 h2{
+  font-size: 3em;
+  color: #18316B;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: -55px;
+  line-height: 50px;
+  height: 60vh;
+  padding-top: 0;
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -moz-animation: container2 10s linear infinite;
+  -webkit-animation: container2 10s linear infinite;
+  animation: container2 10s linear infinite;
+}
+
+@-moz-keyframes container2 {
+  0% { -moz-transform: translateX(100%);}
+  100% { -moz-transform: translateX(-100%);}
+}
+
+@-webkit-keyframes container2 {
+  0%{ -webkit-transform: translateX(100%);}
+  100%{ -webkit-transform: translateX(-100%);}
+}
+
+@keyframes container2{
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+     transform: translateX(100%)
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  }
+
+  @media (min-width: 992px) {
+    .container2 p {
+      height: 100vh;
+      font-size: 20px;
+      min-height: 40rem;
+      padding-top: 1.8rem;
+      padding-bottom: 0;
+    }
+  }
+
+
+section.page-section p{
+  text-align: center;
+}
+
+section.page-section h2{
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  section.page-section {
+    height: 100vh;
+    min-height: 40rem;
+    padding-top: 13rem;
+    padding-bottom: 0;
+  }
+}
+
+  @media (min-width: 1200px) {
+    section.page-section h2 {
+      font-size: 3.5rem;
+    }
+  }
+
+    @media (min-width: 992px) {
+      section.page-section3 {
+        height: 100vh;
+        background-color: #18316B;
+        
+      }
+    }
+    
+      @media (min-width: 1200px) {
+        section.page-section3 h2 {
+          
+          text-align: center;
+        }
+      } 
+
+      .rapper{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 350px;
+        width: 100%;
+        background: #fff;
+        
+        padding: 25px;
+        border-radius: 5px;
+        box-shadow: 4px 4px 2px rgba(254, 254, 254, 1);
+      }
+
+      .rapper h2{
+        text-align: center;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #332902;
+      }
+
+      .rapper .input_field{
+        margin-bottom: 10px;
+      }
+
+      .rapper .input_field input[type="text"],
+      .rapper textarea{
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+      }
+
+      .rapper .input_field input[type="password"],
+      .rapper textarea{
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+      } 
+
+      .rapper .input_field input[type="number"],
+      .rapper textarea{
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+      }
+
+      .rapper .input_field input[type="email"],
+      .rapper textarea{
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        padding: 10px;
+      }
+      
+
+      .rapper textarea{
+        height: 80px;
+        resize: none;
+      }
+
+      .rapper .btn button[type= "submit"]{
+        border: 0;
+        margin-top: 15px;
+        padding: 10px;
+        width: 100%;
+        background: #18316B;
+        color: #332902;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-weight: bold;
+        border-radius: 25px;
+        cursor: pointer;
+      }
+      
+      .rapper #error_message{
+        margin-bottom: 20px;
+        padding: 0px;
+        background-color: #18316B;
+        text-align: center;
+        font-size: 14px;
+        transition: all 0.5s ease;
+      }
+
+      .mb-2 {
+        margin-bottom: 0.5rem !important;
+      }
+
+      
+.text-center {
+  text-align: center !important;
+}
+
+.col-lg-6, .col-md-12{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+
+.h4 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+.social{
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 4.5rem);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+}
+
+@media (min-width: 992px) {
+    .social {
+   
+   
+    padding-top: 8rem;
+    
+    text-align: center;
+    padding-bottom: 0;
+    
+  }
+}
+
+@media all and (max-width: 992px ) and (min-device-width: 600px), (min-width: 768px) {
+  .navbar > .masthead > section.page-section > .rapper > .social {
+    width: 100%!important;
+  }
+  }
+
+
+
+
+
+
+
+
+
